@@ -7,18 +7,16 @@
 </head>
 <body>
 <?php
-$a = 0;
-$b = 1;
-$count = 1;
+$string = "Hello";
+$reversedString = "";
 
-echo "$a $b ";
-while ($count <= 8){
-    $next = $a + $b;
-    echo "$next ";
-    $a = $b;
-    $b = $next;
-    $count++;
+for ($i = strlen($string) - 1; $i >= 0; $i--) {
+    $reversedString .= $string[$i];
 }
+
+echo "Input: \"$string\"<br>";
+echo "Output: \"$reversedString\"";
 ?>
+
 </body>
 </html>
