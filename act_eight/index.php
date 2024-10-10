@@ -7,15 +7,14 @@
 </head>
 <body>
     <?php
-    for($i = 1; $i <= 10; $i++){
-        if ($i == 5){
-            continue;
-        }
-        if($i == 8){
-            break;
-        }
-        echo $i . " ";
+    $numb = 6;
+    $fract = 1;
+
+    for ($i = $numb; $i > 0; $i--){
+        $fract *= $i;
     }
+
+    echo "Factorial of $numb is : $fract";
     ?>
 </body>
 </html>

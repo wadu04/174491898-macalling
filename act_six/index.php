@@ -6,15 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    for($i = 1; $i <= 10; $i++){
-        if ($i == 5){
-            continue;
-        }
-        if($i == 8){
-            break;
-        }
-        echo $i . " ";
+    <?php 
+    $movies = ["The Godfather", "God must be crazy", "Mr.bones", "The Mask","Spirited Away" ];
+    foreach($movies as $index => $movies){
+        echo ($index + 1 .".")." " . "$movies<br>";
     }
     ?>
 </body>
