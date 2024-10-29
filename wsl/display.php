@@ -12,7 +12,7 @@ include 'connect.php';
 </head>
 <body>
     <div class="container">
-        <button class="btn btn-primary my-5"><a href="user.php" class="text-white">Add User</a></button>
+        <button class="btn btn-primary my-5"><a href="user.php" class="text-white">Add User </a></button>
     </div>
     <table class="table">
   <thead>
